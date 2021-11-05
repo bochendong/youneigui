@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "detail-view": "../../../../components/detail-view/dv"
+  },
+  "navigationStyle": "custom",
+  "window": {
+    "navigationStyle": "custom"
+  }
+
+  
+}

@@ -1,0 +1,72 @@
+<!--index.wxml-->
+<view class="container">
+
+  <view class="top_container">
+    <view class="logo_container">
+      <image class="logo" src="./img/logo.png"></image>
+      <view class="info_container">
+        <text class ="dianming">有内鬼探案馆</text>
+
+        <view class="address_container">
+          <image class="location_logo" src="./img/location.png"></image>
+           <text class = "info_text">444 York St, London</text>
+        </view>
+        <view class="address_container">
+          <image class="location_logo" src="./img/phone.png"></image>
+           <text class = "info_text">(416)-8217813</text>
+        </view>
+      </view>
+  </view>
+  </view>
+
+  <view class="button_container">
+    <view class="button_widget">
+      <image class="button_mainpage" src="./img/book.png"></image>
+      <view class="button_text_container">
+        <text class = "button_text_big">逛剧本</text>
+        <text class = "button_text_small">开启剧本的世界</text>
+      </view>
+    </view>
+    <view class="button_widget">
+      <image class="button_mainpage" src="./img/book.png"></image>
+      <view class="button_text_container">
+        <text class = "button_text_big">排行榜</text>
+        <text class = "button_text_small">发现你的好本</text>
+      </view>
+    </view>
+
+  </view>
+
+
+  <view class="session-header">
+    <text class="session-header-title">本月推荐</text>
+  </view>
+
+
+  <text class ="name"> 海的牙齿，神的骨头 </text>
+      <text> 6人，三男3女 </text>
+      <text> 剧本单价 $60 </text>
+      <text> 这里是描述，这里是描述</text>
+
+
+      
+  <view class="movie-wrapper" bindtap="bindMovieDetail">
+    <view class="movie-content">
+      <view class="poster-container">
+        <image class="poster" src="./img/test1.png"></image>
+        <text class="name">海牙神骨</text>
+        <text class="wish-count">0人玩过</text>
+      </view>
+      <view class="poster-container">
+        <image class="poster" src="./img/test2.jpeg"></image>
+        <text class="name">持斧奥夫</text>
+        <text class="wish-count">0人玩过</text>
+      </view>
+      <view class="poster-container">
+        <image class="poster" src="./img/test3.jpeg"></image>
+        <text class="name">风雨云</text>
+        <text class="wish-count">0人玩过</text>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "short-view": "../../../../components/short-view/sv",
+    "menu": "../../../../components/menu/menu",
+    "home-swiper": "../../../../components/swiper/swiper"
+  }
+}

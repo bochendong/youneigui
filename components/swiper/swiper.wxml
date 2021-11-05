@@ -1,0 +1,10 @@
+<!--components/swiper/swiper.wxml-->
+<swiper autoplay="True" indicator-dots="True" >
+    <swiper-item>
+      <image class= "image_scroll" mode="scaleToFill" src="./img/logo.png"></image>
+    </swiper-item>
+    
+    <swiper-item>
+      <image class= "image_scroll" mode="scaleToFill" src="./img/test1.png"></image>
+    </swiper-item>
+  </swiper>

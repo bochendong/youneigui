@@ -1,0 +1,24 @@
+<!--components/menu/menu.wxml-->
+
+<view class = "menu_grid">
+    <view class = "menu_button_layout">
+      <image class = "menu_button" src = "./img/crown.png"/>
+      <text class = "menu_text">城限好本</text>
+    </view>
+    <view class = "menu_button_layout" bindtap="allbooktap">
+      <image class = "menu_button" src = "./img/book2.png"/>
+      <text class = "menu_text">发现剧本</text>
+    </view>
+    <view class = "menu_button_layout">
+      <image class = "menu_button" src = "./img/star2.png"/>
+      <text class = "menu_text">本月推荐</text>
+    </view>
+    <view class = "menu_button_layout">
+      <image class = "menu_button" src = "./img/hiring.png"/>
+      <text class = "menu_text">招聘公告</text>
+    </view>
+    <view class = "menu_button_layout">
+      <image class = "menu_button" src = "./img/ann2.png"/>
+      <text class = "menu_text">新本通告</text>
+    </view>
+  </view>

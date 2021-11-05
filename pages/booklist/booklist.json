@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "short-view": "../../../../components/short-view/sv"
+  },
+  "navigationStyle": "default"
+  
+}

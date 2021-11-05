@@ -1,0 +1,38 @@
+/* components/menu/menu.wxss */
+
+
+/* menu */
+.menu_grid{
+  margin-left: 7%;
+  margin-bottom: 5%;
+  width: 85%;
+  border-radius: 5%;
+  align-items: center;
+  flex-direction: row;
+  display: flex;
+  box-shadow:5rpx 5rpx 5rpx 5rpx #141414;
+  overflow: hidden;
+  background-color: #111111;
+
+}
+.menu_button_layout{
+  margin-top: 3%;
+  margin-bottom: 2%;
+  width: 20%;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.menu_button{
+  width: 60%;
+  height: 10vw;
+  margin-left: 20%;
+  margin-right: 20%;
+  display: flex;
+}
+.menu_text{
+  display: block;
+  align-self: middle;
+  font-size: 20rpx;
+  color: rgb(250, 249, 249);
+}

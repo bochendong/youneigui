@@ -1,0 +1,27 @@
+<!--pages/home/home.wxml-->
+
+<view class= "main_container">
+  <view class = "top-wrapper">
+  <view class= "main_swiper">
+    <home-swiper></home-swiper>
+  </view>
+
+  <menu> </menu>
+  </view>
+
+
+  <view class="poster-wrapper">
+    <block wx:for="{{list}}" 
+        wx:for-item="item" 
+        wx:for-index="index"
+        wx:key="id"
+        >
+        <short-view 
+        bindtap="handleimageclick" 
+        data-id = "{{item.id}}"
+        bookname = "{{item.name}}">
+        </short-view>
+    </block>
+  </view>
+
+</view>

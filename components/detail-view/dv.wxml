@@ -1,0 +1,47 @@
+<!--components/short-view/sv.wxml-->
+<view class = "detail-wrapper">
+  <block wx:for="{{list}}" 
+      wx:for-item="item" 
+      wx:for-index="index"
+      wx:key="id"
+      wx:if="{{item.name === bookname}}"
+      >
+    <image class = "back-img" src = "{{item.src}}"></image>
+    <view class = "content">
+
+      <image class= "poster" src = "{{item.src}}"></image>
+      <view class = "info-container">
+        <text class="name" > {{item.name}}</text>
+
+        <view class = "people_info">
+          <text class="price"> 剧本单价 ${{item.price}}/人</text>
+        </view>
+        <view class = "people_info">
+          <image class="people_image"src="./img/people.png"></image>
+          <text class="price"> {{item.human}}人   </text>
+          <image class="people_image"src="./img/male.png"></image>
+          <text class="price"> {{item.female}}</text>
+          <image class="people_image"src="./img/female.png"></image>
+          <text class="price"> {{item.male}}</text>  
+        </view>
+
+        <view class = "catogory-container">
+          <view class = "catogory_icon_first_child">
+                <text class="catogory_text"> 恐怖</text> 
+          </view>
+          <view class = "catogory_icon">
+            <text class="catogory_text"> 推理</text>
+          </view>
+          <view class = "catogory_icon">
+                <text class="catogory_text"> 本格</text>
+          </view>
+          <view class = "catogory_icon">
+                <text class="catogory_text"> 硬核</text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </block>
+
+
+</view>

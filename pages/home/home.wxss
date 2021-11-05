@@ -1,0 +1,37 @@
+/* pages/home/home.wxss */
+
+.main_container{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  flex-direction: column;
+  display: flex;
+  background:  linear-gradient( #000000,#434343);
+}
+/* swiper */
+
+.top-wrapper{
+  width: 100%;
+
+}
+.main_swiper{
+  margin-top: 25%;
+  margin-bottom: 5%;
+  margin-left: 7%;
+  width: 85%;
+  height: 310rpx;
+  background-color: rgb(0, 0, 0);
+  border-radius: 5%;
+  overflow: hidden;
+}
+
+
+/* This block contains movie recommand*/
+.poster-wrapper{
+  overflow: hidden;
+  margin-left: 7%;
+  margin-top: 3%;
+  flex-direction: row;
+}
+
+

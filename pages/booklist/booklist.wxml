@@ -1,0 +1,58 @@
+<!--pages/booklist/booklist.wxml-->
+<view class= "main_container">
+  <view class = "filter-wrapper">
+
+    <view class = "filter-contianer">
+      <text class = "class-name">人数</text>
+    <block wx:for="{{size}}" 
+        wx:for-item="item" 
+        wx:for-index="index">
+        <view class="filter-circle-button">
+          <text class="filter-type-text"> {{item}} </text>
+        </view>
+    </block>
+    </view>
+
+    <view class = "filter-contianer">
+    <text class = "class-name">类型</text>
+    <block wx:for="{{type}}" 
+        wx:for-item="item" 
+        wx:for-index="index">
+        <view class="filter-button">
+          <text class="filter-type-text"> {{item}} </text>
+        </view>
+    </block>
+    </view>
+
+    <view class = "filter-contianer">
+    <text class = "class-name">发行</text>
+    <block wx:for="{{publiser}}" 
+        wx:for-item="item" 
+        wx:for-index="index">
+        <view class="filter-button">
+          <text class="filter-type-text"> {{item}} </text>
+        </view>
+    </block>
+    </view>
+  </view>
+
+  <view class = "session-header">
+    本月推荐
+    热门剧本
+    经典剧本
+    </view>
+
+  <view class="poster-wrapper">
+    <block wx:for="{{list}}" 
+        wx:for-item="item" 
+        wx:for-index="index"
+        wx:key="id"
+        >
+        <short-view 
+        bindtap="handleimageclick" 
+        data-id = "{{item.id}}"
+        bookname = "{{item.name}}">
+        </short-view>
+    </block>
+  </view>
+</view>

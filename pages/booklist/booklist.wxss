@@ -1,0 +1,57 @@
+.filter-wrapper{
+  width: 100%;
+  background-color: white;
+}
+.filter-contianer{
+  font-size: 22rpx;
+  width: 86%;
+  margin-left: 7%;
+  margin-bottom: 3%;
+}
+
+.session-header{
+  margin-left: 7%;
+  margin-top: 3%;
+  font-size: 28rpx;
+  color: #ffffff;
+}
+.class-name{
+  font-size: 22rpx;
+  color: #534c4c;
+}
+
+.filter-circle-button{
+  display: inline;
+  height: fit-content;
+  background-color: #ffffff;
+  margin-left: 3%;
+  border-radius: 50%;
+  box-shadow:2rpx 2rpx 2rpx 2rpx #858484;
+}
+.filter-button{
+  display: inline;
+  background-color: #ffffff;
+  margin-left: 3%;
+  border-radius: 10%;
+  box-shadow:2rpx 2rpx 2rpx 2rpx #858484;
+}
+.filter-type-text{
+  font-size: 22rpx;
+  color: #534c4c;
+  white-space: pre-wrap;
+}
+
+.poster-wrapper{
+  margin-top: 3%;
+  overflow: hidden;
+  margin-left: 7%;
+  flex-direction: row;
+}
+.main_container{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  flex-direction: column;
+  display: flex;
+  background:  linear-gradient( #000000,#434343);
+}
